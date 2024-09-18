@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">HelloWorld</string>
     <string name="Botao_somar">Somar</string>
+    <string name="botao_janela">Janela</string>
+    <string name="txt_valor">valor:</string>
+    <string name="txt_gorjeta">gorjeta:</string>
+    <string name="txt_total">total:</string>
 </resources>
