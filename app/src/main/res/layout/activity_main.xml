@@ -75,4 +75,15 @@
         android:text="@string/txt_gorjeta"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="22dp"
+        android:onClick="abrirBancoDeDados"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
