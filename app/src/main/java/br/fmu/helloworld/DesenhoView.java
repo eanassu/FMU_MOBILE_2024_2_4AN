@@ -30,9 +30,9 @@ public class DesenhoView extends View {
         paintScreen = new Paint();
         paintLine = new Paint();
         paintLine.setAntiAlias(true);
-        paintLine.setColor(Color.BLUE);
+        paintLine.setColor(Color.RED);
         paintLine.setStyle(Paint.Style.STROKE);
-        paintLine.setStrokeWidth(50);
+        paintLine.setStrokeWidth(20);
         paintLine.setStrokeCap(Paint.Cap.ROUND);
     }
     @Override
