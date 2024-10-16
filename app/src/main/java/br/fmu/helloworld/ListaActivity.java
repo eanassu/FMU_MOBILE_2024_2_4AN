@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.List;
 
@@ -21,5 +22,9 @@ public class ListaActivity extends AppCompatActivity {
         recyclerView.setAdapter(new FuncionarioAdapter(lista, this));
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(layoutManager);
+    }
+
+    public void fechar(View view) {
+        finish();
     }
 }

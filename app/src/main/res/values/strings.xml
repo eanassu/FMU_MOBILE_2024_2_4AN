@@ -15,4 +15,6 @@
     <string name="txt_excluir">Excluir</string>
     <string name="txt_atualizar">Atualizar</string>
     <string name="txt_lista">Lista</string>
+    <string name="txt_bd">Banco de Dados</string>
+    <string name="txt_desenho">Desenho</string>
 </resources>

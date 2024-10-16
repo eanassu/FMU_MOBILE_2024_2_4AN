@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
@@ -17,5 +18,9 @@ public class MainActivity2 extends AppCompatActivity {
         Intent intent = getIntent();
         int soma = intent.getIntExtra("soma", 0);
         textView.setText(Integer.toString(soma));
+    }
+
+    public void fechar(View view) {
+        finish();
     }
 }
