@@ -37,9 +37,7 @@ public class DesenhoActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onAccuracyChanged(Sensor sensor, int i) {
-
-            }
+            public void onAccuracyChanged(Sensor sensor, int i) {}
         }, sensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 }
