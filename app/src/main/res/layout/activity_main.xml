@@ -7,6 +7,16 @@
     android:onClick="abrirDesenho"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:onClick="abrirMapas"
+        android:text="@string/txt_mapas"
+        app:layout_constraintStart_toStartOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
     <EditText
         android:id="@+id/editTextNumber1"
         android:layout_width="wrap_content"
